@@ -1,0 +1,22 @@
+
+    /* Ensure the page is responsive */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  max-width: 90%; /* Limit the container width for better responsiveness */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Flexible image that resizes based on container width */
+img {
+  max-width: 50%; /* Image will resize to fit within the container */
+  height: auto; /* Maintains aspect ratio */
+  border: 2px solid #333; /* Optional styling */
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexible Images Example</title>
+  <link rel="stylesheet" href="flex_img.css">
+  <style>
+    /* Ensure the page is responsive */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  max-width: 90%; /* Limit the container width for better responsiveness */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Flexible image that resizes based on container width */
+img {
+  max-width: 100%; /* Image will resize to fit within the container */
+  height: auto; /* Maintains aspect ratio */
+  border: 2px solid #333; /* Optional styling */
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Flexible Images in Responsive Design</h1>
+    <p>Resize the window to see the image adapt to the container.</p>
+    <img src="Siegen-ENC2.jpg" alt="Placeholder Image">
+  </div>
+
+  <div class="container">
+    <h1>A sample image in Responsive Design</h1>
+    <p>A scenary</p>
+    <img src="https://img.freepik.com/free-photo/mount-mont-blanc-surrounded-by-rocks-river-with-long-exposure-chamonix-france_181624-18300.jpg?w=1060&t=st=1727261403~exp=1727262003~hmac=01098c0e6acdfb0144e960cdb9430a85abf9828e4d50e72529765e208f935f15" alt="Placeholder Image"
+    >
+  </div>
+
+</body>
+</html>
